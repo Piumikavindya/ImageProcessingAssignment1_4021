@@ -4,19 +4,19 @@
 ## Take Home Assignment 1 – Python Image Processing Tasks
 ### Kavindya P.P - EG/2020/4021
 
-### 🔧 Tasks
+###  Tasks
 1. **Reduce Intensity Levels** – Convert image from 256 to N levels.
 2. **Spatial Averaging** – Apply 3×3, 10×10, 20×20 averaging filters.
 3. **Rotate Image** – Rotate input image by 45° and 90°.
 4. **Block Averaging** – Reduce spatial resolution using non-overlapping 3x3, 5x5, 7x7 blocks.
 
-### 🖼 Input
+###  Input
 - A grayscale image named `input_image.jpg`.
 
-### 📂 Output
+###  Output
 - Results saved in `results/` folder.
 
-### 💻 Run Instructions
+###  Run Instructions
 
 ```bash
 python task1_reduce_intensity_levels.py
