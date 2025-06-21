@@ -7,7 +7,7 @@ def apply_mean_filter(image, ksize):
 if __name__ == "__main__":
     image = cv2.imread("input.jpg")
 
-    for k in [3, 10, 20]:
+    for k in [3, 10, 20, 60]:
         blurred = apply_mean_filter(image, k)
         cv2.imwrite(f"results/task2_output_blur_{k}x{k}.jpg", blurred)
         print(f"Saved results/task2_output_blur_{k}x{k}.jpg")
